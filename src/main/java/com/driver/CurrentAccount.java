@@ -64,4 +64,8 @@ public class CurrentAccount extends BankAccount{
         }
         return String.valueOf(ch);
     }
+
+    public String getTradeLicenseId() {
+        return tradeLicenseId;
+    }
 }
